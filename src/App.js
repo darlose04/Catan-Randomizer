@@ -178,6 +178,9 @@ const App = () => {
   return (
     <div className='container mt-3'>
       <h1 className='m-auto text-center'>Catan Randomizer</h1>
+      <h5 className='mt-3 text-center'>
+        Reload the page to get a new random list
+      </h5>
       <Regular
         regularResources={regularResources}
         regularNumbers={regularNumbers}
